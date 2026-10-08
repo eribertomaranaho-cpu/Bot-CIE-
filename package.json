@@ -1,0 +1,15 @@
+{
+  "name": "cie-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot de gestão para o CIE - Centro de Inteligência do Exército",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.0",
+    "dotenv": "^16.6.1"
+  }
+}
